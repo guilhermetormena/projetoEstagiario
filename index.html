@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="style/generalstyle.css">
+    <link rel="stylesheet" href="style/mediaquery.css">
+    <title>Logo</title>
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <i class="material-icons" id="local">location_on</i>
+            <label for="lblText">Logo</label>
+        </div>
+        <div class="search">
+            <input type="text" name="txtSearch" id="idSearch">
+            <i class="material-icons" id="iSearch">search</i>
+        </div>
+    </header>
+    <nav onclick="clickMobil()">
+        <a href="#"><i class="material-icons" id="idFlight">flight</i>Flight</a>
+        <a href="#"><i class="material-icons" id="idHotel">hotel</i>Hotel</a>
+        <a href="#"><i class="material-icons" id="idRental">directions_car</i>Rental</a>
+    </nav>
+    <form id="idOption">
+        <h1>Travel the world with us</h1>
+        <p><label for="idFrom">From</label></p>
+        <p><input type="text" name="txtFrom" id="idFrom" placeholder=" Departing from"></p>
+        <p><label for="idTo">To</label></p>
+        <p><input type="text" name="txtTo" id="idTo" placeholder=" Arriving at"></p>
+        <p><input type="submit" id="idSubmit" value="Search and find dates"></p>
+    </form>
+    <main>
+        <h1>Good Offers Right Now</h1>
+        <h4>Up to <strong>50%</strong> discount.</h4>
+        <section class="imagem" id="cinque">
+            <img src="imagens/cinqueterre.jpg" alt="Cinque Terre">
+            <aside class="name cinque">Cinque Terre</aside>
+        </section>
+        <section class="imagem" id="cinque">
+            <img src="imagens/newyork.jpg" alt="New York">
+            <aside class="name new">New York</aside>
+        </section>
+        <section class="imagem" id="san">
+            <img src="imagens/sanfran.jpg" alt="San Francisco">
+            <aside class="name san">San Francisco</aside>
+        </section>
+        <section class="imagem" id="pisa">
+            <img src="imagens/pisa.jpg" alt="Pisa">
+            <aside class="name pisa">Pisa</aside>
+        </section>
+        <section class="imagem" id="paris">
+            <img src="imagens/paris.jpg" alt="Paris">
+            <aside class="name paris">Paris</aside>
+        </section>
+        <h1>Explore Nature</h1>
+        <p>Travel with us and see nature at its finest.</p>
+        <section class="destiny" id="ocean">
+            <img src="imagens/ocean.jpg" alt="Ocean">
+            <div class="description">
+                <h1>West Coast, Norway</h1>
+                <p class="preco">Roundtrip from $79</p>
+                <p>Preasent tincidunt sed tellus ut rutrum sed vitae justo.</p>
+                <p class="buy">Buy Tickets</p>
+            </div>
+        </section>
+        <section class="destiny" id="montain">
+            <img src="imagens/mountains.jpg" alt="Mountains">
+            <div class="description">
+                <h1>West Coast, Norway</h1>
+                <p class="preco">Roundtrip from $79</p>
+                <p>Preasent tincidunt sed tellus ut rutrum sed vitae justo.</p>
+                <p class="buy">Buy Tickets</p>
+            </div>
+        </section>
+    </main>
+    <footer>
+
+    </footer>
+    <script src="scripts/script.js"></script>
+</body>
+</html> 

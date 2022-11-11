@@ -1,0 +1,84 @@
+@charset "UTF-8";
+
+:root{
+    /*PALETA DE CORES*/
+    --cor00: #f38981;
+    --cor01: #f44336;
+    --cor02: #f1f1f1;
+    --cor03: #606060;
+    --cor04: #616161;
+}
+
+@media screen and (max-width: 320px) {
+    main > section > img{
+        width: 100vw;
+        padding: 0px 15px 15px 15px;
+    }
+    main > section.destiny > img{
+        padding-bottom: 0px;
+
+    }
+    main > section.destiny > div{
+        margin-left: 15px;
+        margin-bottom: 15px;
+    }
+    main > p{
+        padding: 15px;
+        font-size: 0.92em;
+        color: var(--cor03);
+    }    
+    section > div > h1{
+        padding: 10px 10px 15px 10px;
+    }
+    section > div > p{
+        padding: 10px 10px 15px 10px;
+    }
+    main > section > div > p.preco{
+        color: var(--cor03);
+    }
+    main > section > div > p.buy{
+        padding-left: 30px;
+    }
+}
+
+@media screen and (min-width: 320px) and (max-width: 450px) {
+    main > section > img{
+        width: 100vw;
+        padding: 0px 15px 15px 15px;
+    }
+    main > section.destiny > img{
+        padding-bottom: 0px;
+
+    }
+    main > section.destiny > div{
+        margin-left: 15px;
+        margin-bottom: 15px;
+    }
+    main > p{
+        padding: 15px;
+        font-size: 0.92em;
+        color: var(--cor03);
+    }    
+}
+    
+@media screen and (min-width: 450px) and (max-width: 768px) {
+    header{
+        justify-content: space-around; /*separa as caixas com as mesmas distancias*/
+    }
+    nav{
+        display: none;
+    }
+    form{
+        display: none;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    nav{
+        display: none;
+    }
+    form{
+        display: none;
+    }
+    
+}
